@@ -12,7 +12,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const path = require("path");
 const shortid = require("shortid");
-
+//What
 let rooms = [];
 const server = app.listen(PORT, () =>
   console.log(`Eyes on port ${PORT} ` + "http://localhost:3000/")
